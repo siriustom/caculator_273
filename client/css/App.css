@@ -1,9 +1,5 @@
 @import './MyCalculator.css';
 @import './Header.css';
-@import './Main.css';
-@import './Register.css';
-@import './Profile.css';
-@import './Login.css';
 .App {
   position: absolute;
   top: 0;
