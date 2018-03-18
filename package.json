@@ -1,0 +1,34 @@
+{
+  "name": "calculator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.2.3",
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "body-parser": "^1.18.2",
+    "css-loader": "^0.28.10",
+    "express": "^4.16.2",
+    "file-loader": "^1.1.11",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "webpack": "^4.1.1"
+  },
+  "scripts": {
+    "webpack": "webpack",
+    "start": "npm run webpack && nodemon --exec babel-node -- bin/www",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.10"
+  }
+}
